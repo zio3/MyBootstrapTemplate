@@ -46,6 +46,7 @@ foreach (PropertyMetadata property in ModelMetadata.Properties) {
             }
 #>
                 @Html.ValidationMessageFor(model => model.<#= property.PropertyName #>)
+				@*<p class="help-block">ヘルプ用テキスト</p>*@
             </div>
         </div>
 
