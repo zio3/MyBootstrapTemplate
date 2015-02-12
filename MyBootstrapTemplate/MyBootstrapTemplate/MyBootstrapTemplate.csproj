@@ -77,11 +77,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Views\Shared\EditorTemplates\decimal.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\DisplayOnOff.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\EnableOrDisable.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\MailAddress.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\decimal.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DisplayOnOff.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\EmailAddress.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\EnableOrDisable.cshtml" />
     <Content Include="Views\Shared\Parts\ReturnLinkButton.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Password.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
