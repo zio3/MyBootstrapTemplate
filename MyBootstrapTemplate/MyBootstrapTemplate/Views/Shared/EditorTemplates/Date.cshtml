@@ -1,0 +1,10 @@
+﻿@model DateTime?
+@{
+    Dictionary<string, object> dic = new Dictionary<string, object>();
+    dic.Add("class", "form-control type-date");
+    var str = string.Empty;
+    if (Model.HasValue)
+    {
+        str = string.Format("{0:yyyy/MM/dd HH:mm:ss}", Model);
+    }    
+}@Html.TextBox("", (Object)Model, dic)

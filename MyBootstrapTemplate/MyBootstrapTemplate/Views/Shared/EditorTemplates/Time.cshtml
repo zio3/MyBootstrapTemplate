@@ -1,11 +1,11 @@
-﻿@model DateTime?
+﻿@model Timespan?
 @{
     Dictionary<string, object> dic = new Dictionary<string, object>();
-    dic.Add("class", "form-control type-datetime");
+    dic.Add("class", "form-control type-time");
     var str = string.Empty;
     if(Model.HasValue)
     {
-        str = string.Format("{0:yyyy/MM/dd HH:mm:ss}",Model);
+        str = Model.Value.ToString();
     }
     
 }@Html.TextBox("", str, dic)
