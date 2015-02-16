@@ -87,6 +87,7 @@
     <Content Include="Views\Shared\EditorTemplates\Time.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Url.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\ImageUrl.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Password.cshtml" />
     <None Include="Views\Shared\EditorTemplates\Timespan.cshtml" />
     <None Include="Views\Shared\EditorTemplates\Url.cshtml" />
   </ItemGroup>
