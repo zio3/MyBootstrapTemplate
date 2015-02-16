@@ -87,6 +87,8 @@
     <Content Include="Views\Shared\EditorTemplates\Time.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Url.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\ImageUrl.cshtml" />
+    <None Include="Views\Shared\EditorTemplates\Timespan.cshtml" />
+    <None Include="Views\Shared\EditorTemplates\Url.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
