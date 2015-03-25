@@ -46,8 +46,8 @@ foreach (PropertyMetadata property in properties) {
 		
     </tr>
 	</thead>
-@foreach (var item in qp.Rows) {
 <tbody>
+@foreach (var item in qp.Rows) {
     <tr>
 
 <#
@@ -85,8 +85,8 @@ if (pkName != null) {
 }
 #>
     </tr>
-</tbody>
 }
+</tbody>
 </table>
 @Html.Partial("Parts/Pager",qp.GetPagerContext(10))
 <#@ include file="ModelMetadataFunctions.cs.include.t4" #>
