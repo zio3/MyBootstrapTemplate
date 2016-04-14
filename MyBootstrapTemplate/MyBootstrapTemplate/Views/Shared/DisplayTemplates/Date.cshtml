@@ -1,0 +1,8 @@
+﻿@model DateTime?
+@{
+    var text = string.Empty;
+    if (Model.HasValue)
+    {
+        text = Model.Value.ToString("yyyy/MM/dd");
+    }
+}@text

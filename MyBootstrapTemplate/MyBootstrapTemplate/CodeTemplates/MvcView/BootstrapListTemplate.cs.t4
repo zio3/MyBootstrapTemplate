@@ -3,10 +3,10 @@
 <#@ include file="Imports.include.t4" #>
 @model IQueryable<#= "<" + ViewDataTypeName + ">" #>
 @{
-	var qp = new DbQueryHelper.QueryPager<<#= ViewDataTypeName #>>(Model);
+	var qp = new DbQueryHelper.QueryPager<<#= ViewDataTypeName #>>(Model.OrderBy(c=>c.Id));
 }
 <h2>一覧</h2>
-@* //検索用コード 不要な差削除
+@* //検索用コード 不要な場合は削除
 @using (Html.BeginForm(null, null, FormMethod.Get))
 {
     <div class="form-inline">
@@ -17,7 +17,6 @@
     </div>
 }
 *@
-
 <p>
     @Html.ActionLink("新規追加", "Create",null, new { @class = "btn btn-primary" })
 </p>

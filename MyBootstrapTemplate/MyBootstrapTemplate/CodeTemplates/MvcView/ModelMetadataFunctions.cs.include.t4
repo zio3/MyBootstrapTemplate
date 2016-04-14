@@ -1,5 +1,4 @@
-﻿
-<#+
+﻿<#+
 // These functionalities needs to move to core.
 
 RelatedModelMetadata GetRelatedModelMetadata(PropertyMetadata property){
