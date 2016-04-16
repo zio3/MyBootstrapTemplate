@@ -83,13 +83,13 @@
     <Content Include="Views\Shared\DisplayTemplates\Url.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\ImageUrl.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Password.cshtml" />
-    <None Include="Views\Shared\DisplayTemplates\Date.cshtml" />
-    <None Include="Views\Shared\DisplayTemplates\DateTimeOffset.cshtml" />
-    <None Include="Views\Shared\DisplayTemplates\Enum.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\DateTimeOffset.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\Enum.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\Timespan.cshtml" />
-    <None Include="Views\Shared\EditorTemplates\Url.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Date.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\DateTimeOffset.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Enum.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTimeOffset.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Enum.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Timespan.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Url.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
