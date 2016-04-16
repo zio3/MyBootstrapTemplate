@@ -80,7 +80,6 @@
     <Content Include="Views\Shared\Parts\ReturnLinkButton.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Password.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Date.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Time.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Url.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\ImageUrl.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Password.cshtml" />

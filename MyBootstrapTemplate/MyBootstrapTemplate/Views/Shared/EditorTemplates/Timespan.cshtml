@@ -5,7 +5,7 @@
     var str = string.Empty;
     if(Model.HasValue)
     {
-        str = Model.ToString();
+        str = Model.Value.ToString();
     }
     
 }@Html.TextBox("", str, dic)
