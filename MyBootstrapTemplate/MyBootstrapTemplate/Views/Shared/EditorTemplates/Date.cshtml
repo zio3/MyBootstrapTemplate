@@ -5,6 +5,6 @@
     var str = string.Empty;
     if (Model.HasValue)
     {
-        str = string.Format("{0:yyyy/MM/dd HH:mm:ss}", Model);
+        str = string.Format("{0:yyyy/MM/dd}", Model);
     }    
 }@Html.TextBox("", str, dic)
